@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar responsive</title>
+    <style>
+        body, html{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 800px;
+            height: 400px;
+            background-color: lightcoral;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px 50px;
+        }
+        /* ukuran Table */
+        @media screen and (max-width: 768px){
+            .container{
+                width: 460px;
+                padding: 16px 26px;
+                background-color: lightskyblue;
+            }
+        }
+        /* ukuran HP  */
+        @media (max-width: 576px){
+            .container{
+                background-color: yellow;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestiae iure exercitationem nam quis! Quidem aliquid omnis quaerat unde tenetur ut nobis optio explicabo enim. Temporibus, molestiae harum obcaecati atque labore sunt enim sint iusto delectus veritatis ipsum at qui error. Nam eos illum placeat labore ab laborum vel sequi alias facilis excepturi pariatur qui cum, dolorem et blanditiis. Cumque maiores, praesentium alias sed ipsum consectetur assumenda facere quas saepe amet aliquam ducimus similique incidunt error, veritatis quam rem tempora corrupti quaerat ea quisquam officia ad perferendis. Distinctio molestias id voluptatum eius facilis tempore placeat laborum nemo, impedit consectetur accusantium!
+        </p>
+    </div>
+</body>
+</html>
